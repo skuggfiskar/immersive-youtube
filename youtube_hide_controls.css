@@ -1,0 +1,66 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+/*  @-moz-document domain("www.youtube.com") { */
+
+/*
+*   Default to hiding stuff
+*/
+.ytp-chrome-bottom,
+.ytp-chrome-top,
+.ytp-gradient-top,
+.ytp-gradient-bottom {
+    opacity: 0.0;
+}
+.branding-img {
+    display: none !important;
+}
+
+/*
+*   Show stuff when needed
+*/
+.ytp-chrome-controls {
+    opacity: 1;
+    background: #000000 !important;
+}
+.ytp-chrome-bottom:hover,
+.ytp-chrome-top:hover {
+    opacity: 1.0;
+}
+
+/*
+*   Testing
+*/
+/*    
+    .ytp-chrome-bottom:hover, .ytp-chrome-top:hover, .ytp-gradient-top:hover, .ytp-gradient-bottom:hover {
+        opacity: 1.0;
+    }
+    
+    .branding-img   {
+        display: none !important;
+       fill: #FFAAFF !important;
+        background: #AAFFAA !important;
+    }
+*/
+/*
+    .html5-play-progress, .ytp-play-progress {
+       background: #36352e !important; 
+    }
+    .html5-scrubber-button:hover, .ytp-scrubber-button:hover, .ytp-swatch-background-color, .ytp-swatch-background-color-secondary {
+       background: #36352e !important;
+    }
+    .ytp-volume-slider-track {
+       background: #36352e !important;
+    }
+    .ytp-settings-button.ytp-hd-quality-badge::after, .ytp-settings-button.ytp-4k-quality-badge::after, .ytp-settings-button.ytp-5k-quality-badge::after, .ytp-settings-button.ytp-8k-quality-badge::after, .ytp-settings-button.ytp-3d-badge::after {
+       background-color: #36352e !important;
+    }
+    .ytp-swatch-color {
+       color: #36352e !important;
+    }
+    .ytp-menuitem[aria-checked="true"] .ytp-menuitem-toggle-checkbox {
+       background: #36352e !important;
+    }
+    .ytp-chrome-controls .ytp-button.ytp-youtube-button:hover:not([aria-disabled="true"]):not([disabled]) .ytp-svg-fill-logo-tube-lozenge {
+       fill: #36352e !important;
+    }
+*/
+/* } */
